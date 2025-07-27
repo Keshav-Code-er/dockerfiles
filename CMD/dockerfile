@@ -1,6 +1,7 @@
 FROM almalinux:8
 # almalinux is same as centos
 RUN yum install nginx -y
+RUN echo "Hello World to Docker" > /usr/share/nginx/helloworld.html
 
 CMD [ "nginx", "-g", "daemon off" ]
 #this is command to run nginx running in background

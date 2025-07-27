@@ -4,5 +4,5 @@ RUN yum install nginx -y
 RUN echo "Hello World to Docker" > /usr/share/nginx/helloworld.html
 
 # daemon off command makes our container running and attached to screen
-CMD [ "nginx", "-g", "daemon off" ]
+CMD [ "nginx", "-g", "daemon off"; ]
 #this is command to run nginx running in background

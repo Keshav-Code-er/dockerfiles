@@ -6,3 +6,10 @@ RUN echo "Hello World to Docker" > /usr/share/nginx/html/helloworld.html
 # daemon off command makes our container running and attached to screen
 CMD [ "nginx", "-g", "daemon off;" ]
 #this is command to run nginx running in background
+
+
+#FROM run:v1
+#RUN echo "Hello World to Docker" > /usr/share/nginx/html/helloworld.html
+# daemon off command makes our container running and attached to screen
+#CMD [ "nginx", "-g", "daemon off;" ]
+#this is command to run nginx running in background

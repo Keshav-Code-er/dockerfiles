@@ -3,3 +3,4 @@ ADD hello.txt /tmp/
 
 #copy content directly from the internet
 ADD https://raw.githubusercontent.com/Keshav-Code-er/dockerfiles/refs/heads/master/README.MD /tmp/
+ADD sample-1.tar /tmp/

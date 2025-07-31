@@ -2,5 +2,9 @@ ARG version
 FROM almalinux:${version:-8}
 #ARG variable before FROM will not work after FROM 
 #ARG will only work till line 2(FROM)
+ARG NAME
+ARG COURSE
+ARG DURATION
+RUN echo "The trainer ${NAME}, trainer for course ${COURSE}, duration ${DURATION}.
 
 RUN echo "version passed by user is: ${version}"

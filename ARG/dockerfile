@@ -5,6 +5,8 @@ FROM almalinux:${version:-8}
 ARG NAME
 ARG COURSE
 ARG DURATION
+ENV NAME=${NAME}
+ENV COURSE=${COURSE}
 RUN echo "The trainer ${NAME}, trainer for course ${COURSE}, duration ${DURATION}"
 
 #RUN echo "version passed by user is: ${version}"

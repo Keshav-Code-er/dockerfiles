@@ -1,4 +1,5 @@
 FROM almalinux:8
 # RUN cd /tmp
+USER keshav
 WORKDIR /tmp
 RUN echo "Hello Docker in WDIR" > Hello.txt
